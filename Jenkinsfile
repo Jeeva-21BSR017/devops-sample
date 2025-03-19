@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "jeeva3104/devops-sample:latest"  // Change this to your registry
         CONTAINER_NAME = "docker-running-app"
-        REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Jenkins credentials ID
+        REGISTRY_CREDENTIALS = "docker-jeeva"  // Jenkins credentials ID
     }
 
     stages {
